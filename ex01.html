@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let valor1 = parseInt(prompt("Escreva o primeiro valor"));
+        let valor2 = parseInt(prompt("Escreva o segundo valor"));
+        let resultado;
+
+        if(valor2 <= 0){
+         valor2 = parseInt(prompt("Escreva outro valor maior que zero e positivo"));
+        }else{
+            valor2 = valor2
+        }if(valor2 >= 1){
+                resultado = valor1 / valor2; 
+            }
+
+        document.write(resultado);
+    </script>
+</body>
+</html>
