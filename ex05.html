@@ -10,6 +10,21 @@
         let valor1 = parseInt(prompt("Escreva o primeiro número "));
         let valor2 = parseInt(prompt("Escreva o segundo número "));
 
+        let resp = (valor1 + valor2) / 2;
+
+        document.write("<h3> A média do primeiro número pelo segundo número é " + resp + "<br></h3>")
+        document.write("<h3> Os números interos entre os valores acima é: </h3>")
+
+        if(valor1 >= valor2){
+            document.write("O primeiro valor tem que ser maior que o segundo")
+        }else{
+            for(let i = valor1; i <= valor2; i++ ){
+
+            document.write( i + " ")
+        }
+        }
+
+
         
     </script>
 </body>
