@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex08</title>
+</head>
+<body>
+
+    <h3>
+        Ler um valor N e imprimir todos os valores inteiros entre 1 (inclusive) e N (inclusive). Considere que o N será sempre maior que ZERO.
+        N  é um valor informado pelo usuário 
+
+    </h3>
+        
+
+    <script>
+        let i = 0;
+        let n = parseInt(prompt("Informe o valor desejado: "));
+        while(n <= 0){
+            n = parseInt(prompt("ERRO ! Digite novamente: "));
+        }   
+        if(n > 0){
+            while(i < n){
+                i += 1
+                document.write(`${i}`)
+            }
+        }
+    </script>
+</body>
+</html>
